@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | NFT Preview Card Component</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <article class="nft">
+            <!-- Image -->
+            <div class="img-container">
+                <img class="nft__img" src="./images/image-equilibrium.jpg" alt="an image of a cube balancing on one of its vertice with three faces visible to the viewer">
+                <div class="overlay"></div>
+            </div>
+
+            <!-- Name -->
+            <h1><a href="#" class="hover-state">Equilibrium #3429</a></h1>
+
+            <!-- Desc -->
+            <p>Our Equilibrium collection promotes balance and calm.</p>
+
+            <!-- Info -->
+            <div class="nft__info flex-group">
+                <div class="nft__price flex-group">
+                    <img src="./images/icon-ethereum.svg" alt="">
+                    0.041 ETH
+                </div>
+                <div class="nft__time flex-group">
+                    <img src="./images/icon-clock.svg" alt="">
+                    3 days left
+                </div>
+            </div>
+
+            <!-- Creator -->
+            <div class="nft__creator flex-group">
+                <img class="nft__creator__img" src="./images/image-avatar.png" alt="">
+                <p>Creation of <a href="#" class="nft__creator__name hover-state">Jules Wyvern</a></p>
+            </div>
+        </article>
+    </main>
+</body>
+
+</html>
