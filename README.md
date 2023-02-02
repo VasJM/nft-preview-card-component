@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://github.com/VasJM/nft-preview-card-component)
+- [Solution](https://www.frontendmentor.io/solutions/nft-card-preview-component-using-css-flex-J1z5GLpYfj)
 - [Live Site](https://sensational-snickerdoodle-82dd97.netlify.app/)
 
 ## My process
